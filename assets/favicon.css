@@ -1,0 +1,14 @@
+/* Favicon */
+.favicon {
+    width: 32px;
+    height: 32px;
+    background-color: #4a6741;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 18px;
+}

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Dr. Krista T. Kenney</title>
+    <meta name="description" content="Get in touch with Dr. Krista T. Kenney for speaking engagements, coaching services, or general inquiries.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="../index.html">Dr. Krista T. Kenney</a>
+            </div>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="speaking.html" class="nav-link">Speaking</a></li>
+                    <li class="nav-item"><a href="books.html" class="nav-link">Books</a></li>
+                    <li class="nav-item"><a href="community.html" class="nav-link">Community</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <button class="mobile-nav-close">
+            <i class="fas fa-times"></i>
+        </button>
+        
+        <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a href="../index.html" class="mobile-nav-link">Home</a></li>
+            <li class="mobile-nav-item"><a href="about.html" class="mobile-nav-link">About</a></li>
+            <li class="mobile-nav-item"><a href="services.html" class="mobile-nav-link">Services</a></li>
+            <li class="mobile-nav-item"><a href="speaking.html" class="mobile-nav-link">Speaking</a></li>
+            <li class="mobile-nav-item"><a href="books.html" class="mobile-nav-link">Books</a></li>
+            <li class="mobile-nav-item"><a href="community.html" class="mobile-nav-link">Community</a></li>
+            <li class="mobile-nav-item"><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+    </div>
+    
+    <div class="overlay"></div>
+    
+    <!-- Page Header -->
+    <section class="section bg-primary text-white py-5">
+        <div class="container">
+            <h1>Let's Connect</h1>
+            <p class="hero-subtitle">Whether you're looking to collaborate, invite Krista to speak, or ask about coaching—this is the place.</p>
+        </div>
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4 mb-md-0">
+                    <h2>Get in Touch</h2>
+                    <p>I'd love to hear from you. Please fill out the form below, and I'll respond within 72 hours (Monday–Friday).</p>
+                    
+                    <form action="#" method="POST" class="mt-4">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="inquiry-type" class="form-label">Inquiry Type</label>
+                            <select id="inquiry-type" name="inquiry-type" class="form-select" required>
+                                <option value="" selected disabled>Please select</option>
+                                <option value="speaking">Speaking Engagement</option>
+                                <option value="coaching">Coaching Services</option>
+                                <option value="book">Book-Related Inquiry</option>
+                                <option value="media">Media Request</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label class="form-checkbox">
+                                <input type="checkbox" name="newsletter" checked>
+                                <span>Subscribe to Dr. Kenney's newsletter for updates and resources</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" data-track="contact-submit">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="col-12 col-md-6">
+                    <div class="card bg-light h-100">
+                        <div class="card-content">
+                            <h2>Schedule a Call</h2>
+                            <p>Prefer to speak directly? You can schedule a 15-minute discovery call to discuss your needs and how I might be able to help.</p>
+                            
+                            <div class="text-center my-4">
+                                <a href="#" class="btn btn-primary" data-track="contact-calendar">View Calendar Availability</a>
+                            </div>
+                            
+                            <h3 class="mt-5">Connect on Social</h3>
+                            <ul class="social-list mt-3">
+                                <li class="social-item">
+                                    <a href="https://www.linkedin.com/in/krista-kenney-ph-d-922574b7" target="_blank" class="social-link">
+                                        <i class="fab fa-linkedin"></i> LinkedIn
+                                    </a>
+                                </li>
+                                <li class="social-item">
+                                    <a href="https://www.instagram.com/kristhebrainiac" target="_blank" class="social-link">
+                                        <i class="fab fa-instagram"></i> Instagram
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <h3 class="mt-5">Response Time</h3>
+                            <p>I personally review all inquiries and aim to respond within 72 business hours (Monday–Friday). For urgent matters related to scheduled events, please indicate "Urgent" in your subject line.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+            
+            <div class="row">
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>How far in advance should I book you for speaking?</h3>
+                    <p>For major events (conferences, retreats, etc.), I recommend booking 6-12 months in advance. For smaller events or virtual presentations, 2-3 months notice is typically sufficient, though I occasionally have last-minute availability.</p>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>What are your coaching rates?</h3>
+                    <p>Coaching packages are customized based on your specific needs, goals, and preferred session frequency. After our initial consultation, I'll provide a detailed proposal outlining investment options. All packages include session time, email support, and customized resources.</p>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>Do you offer virtual coaching?</h3>
+                    <p>Yes! All coaching services are available virtually via Zoom. This allows for flexibility in scheduling and eliminates geographic limitations. Virtual sessions are equally effective as in-person coaching and include the same level of personalized attention and resources.</p>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>Can I get a signed copy of your book?</h3>
+                    <p>Yes, signed copies of "Reignited" are available for purchase directly through this website. For bulk orders or special inscriptions, please mention this in your contact form submission, and we'll arrange the details.</p>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>Do you offer group discounts for coaching?</h3>
+                    <p>Yes, I offer special rates for organizations or groups interested in coaching for multiple team members. Group coaching provides a cost-effective way to bring evidence-based strategies to your entire team while building community and accountability.</p>
+                </div>
+                
+                <div class="col-12 col-md-6 mb-4">
+                    <h3>What is your cancellation policy?</h3>
+                    <p>For coaching sessions, cancellations with less than 24 hours notice will be charged the full session fee. For speaking engagements, please refer to the terms outlined in your specific contract, as these vary based on event size and timing.</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p>Have a question not answered here? Please reach out directly.</p>
+                <a href="#" class="btn btn-primary mt-2" data-track="contact-more-questions">Ask Your Question</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="text-center mb-5">What Clients Say</h2>
+            
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <p class="testimonial-text">"From our very first interaction, Dr. Kenney was responsive, professional, and genuinely interested in understanding our organization's needs. Her pre-event preparation was thorough, and her presentation exceeded our expectations. The audience feedback was overwhelmingly positive."</p>
+                    <p class="testimonial-author">Maria Rodriguez</p>
+                    <p class="testimonial-role">Event Coordinator, Women in Leadership Conference</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Working with Krista has been transformative. Her coaching approach is the perfect blend of evidence-based strategies and compassionate guidance. She's incredibly responsive between sessions and provides personalized resources that have been game-changers for my work-life integration."</p>
+                    <p class="testimonial-author">James Wilson</p>
+                    <p class="testimonial-role">Executive Director & Father of Two</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Dr. Kenney's response time and attention to detail made planning our corporate retreat seamless. She took the time to understand our company culture and challenges, delivering a workshop that felt completely customized to our team's needs. We're already planning to bring her back next year."</p>
+                    <p class="testimonial-author">Sophia Chen</p>
+                    <p class="testimonial-role">HR Director, TechInnovate Inc.</p>
+                </div>
+                
+                <button class="prev-button"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-button"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Map Section -->
+    <section class="section bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Based in New York, Serving Clients Worldwide</h2>
+            <p class="mb-5">While I'm physically located in New York, I work with clients and speak at events across the globe through virtual sessions and travel.</p>
+            
+            <div style="height: 400px; background-color: #eee; border-radius: 8px; display: flex; justify-content: center; align-items: center;">
+                <p>Interactive Map Placeholder</p>
+                <!-- In a real implementation, this would be replaced with an actual map integration -->
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="section bg-primary text-white text-center">
+        <div class="container">
+            <h2>Ready to Take the Next Step?</h2>
+            <p class="mb-4">Whether you're seeking coaching, a speaker, or simply have questions, I'm here to help.</p>
+            <a href="#" class="btn btn-secondary" data-track="contact-cta">Reach Out Today</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="footer-logo">Dr. Krista T. Kenney</div>
+                    <p>Helping women thrive at work and at home through grace-based, neuroscience-informed coaching.</p>
+                    
+                    <ul class="social-list mt-4">
+                        <li class="social-item">
+                            <a href="https://www.linkedin.com/in/krista-kenney-ph-d-922574b7" target="_blank" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://www.instagram.com/kristhebrainiac" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="col-12 col-md-4 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-nav-list">
+                        <li class="footer-nav-item"><a href="../index.html" class="footer-nav-link">Home</a></li>
+                        <li class="footer-nav-item"><a href="about.html" class="footer-nav-link">About</a></li>
+                        <li class="footer-nav-item"><a href="services.html" class="footer-nav-link">Services</a></li>
+                        <li class="footer-nav-item"><a href="speaking.html" class="footer-nav-link">Speaking</a></li>
+                        <li class="footer-nav-item"><a href="books.html" class="footer-nav-link">Books</a></li>
+                        <li class="footer-nav-item"><a href="community.html" class="footer-nav-link">Community</a></li>
+                        <li class="footer-nav-item"><a href="contact.html" class="footer-nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-12 col-md-4 mb-4">
+                    <h4>Contact</h4>
+                    <p>For speaking inquiries, coaching information, or general questions, please reach out.</p>
+                    <a href="contact.html" class="btn btn-outline mt-3">Get in Touch</a>
+                </div>
+            </div>
+            
+            <hr style="border-color: rgba(255, 255, 255, 0.1); margin: 2rem 0;">
+            
+            <div class="copyright text-center">
+                &copy; <script>document.write(new Date().getFullYear())</script> Dr. Krista T. Kenney. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- Cookie Consent Banner -->
+    <div class="cookie-banner">
+        <div class="container">
+            <p>This website uses cookies to ensure you get the best experience. By continuing to browse, you agree to our use of cookies.</p>
+            <button class="accept-cookies btn btn-primary">Accept</button>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+</body>
+</html>
