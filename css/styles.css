@@ -345,6 +345,7 @@ blockquote {
   align-items: center;
   background-color: var(--neutral-light);
   overflow: hidden;
+  padding-bottom: 4rem; /* Add padding to prevent content from being cut off */
 }
 
 .hero-image {
