@@ -361,7 +361,7 @@ blockquote {
 
 @media (min-width: 1024px) {
   .hero-image {
-    object-position: 120% 20%;
+    object-position: 200% 20%;
   }
 }
 
